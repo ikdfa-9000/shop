@@ -1,0 +1,43 @@
+.commentDiv {
+  width: 100%;
+  display: flex;
+  gap: 6px;
+  margin-bottom: 40px;
+}
+
+.avatarDiv {
+  height: 100%;
+  width: 5%;
+  min-width: 70px;
+  justify-content: center;
+  display: flex;
+}
+
+.avatar {
+  margin-top: 2px;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.commentAuthor
+{
+  font-size: 32px;
+  display: inline
+}
+
+.commentText {
+  font-size: 20px;
+}
+
+@media (max-width: 700px)
+{
+  .commentText {
+    font-size: 16px;
+  }
+  .commentAuthor {
+    font-size: 24px;
+  }
+}
+
+

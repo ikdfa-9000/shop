@@ -1,0 +1,18 @@
+.cartLink {
+    margin-right: 50px;
+}
+
+.bannerName, .productCost {
+    font-size: 1.4vmax;
+}
+
+.productCost {
+    font-weight: 200;
+}
+
+.productInfo {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

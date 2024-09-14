@@ -1,0 +1,69 @@
+.writeComment {
+  width: 100%;
+  height: 300px;
+}
+
+.avatarDiv {
+  height: 100%;
+  width: 5%;
+  min-width: 90px;
+  justify-content: center;
+  display: flex;
+}
+
+.avatar {
+  margin-top: 7px;
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+}
+
+.commentConstructor {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.writeComment {
+  display: flex;
+}
+
+.ratingDiv {
+  height: auto;
+}
+
+.commentBody {
+  width: 100%;
+  resize: none;
+  padding: 5px;
+  font-size: 18px;
+  flex: 1;
+}
+
+.publishButton {
+  margin-top: 5px;
+  display: block;
+  float: right;
+}
+
+.unsignedWarning {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+}
+
+.warningText {
+  font-size: 2.4vmax;
+}
+
+.blackLine {
+  padding-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px black solid;
+}

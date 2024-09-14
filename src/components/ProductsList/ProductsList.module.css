@@ -1,0 +1,17 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+.productsContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    animation: fadeIn 0.5s ease-in;
+    padding-top: 120px;
+}

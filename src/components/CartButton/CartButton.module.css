@@ -1,0 +1,9 @@
+.cartButton {
+    color: black;
+    font-weight: 200px;
+    font-size: 1.6vmax;
+}
+
+.cartButton:active {
+    color: black;
+}

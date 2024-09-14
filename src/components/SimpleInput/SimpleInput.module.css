@@ -1,0 +1,22 @@
+.inputText {
+  display: inline;
+}
+
+.inputInput {
+  outline: none;
+  border: none;
+  border-bottom: 1px black solid;
+  margin-left: 8px;
+  margin-bottom: 5px;
+  font-size: 1.4vmax;
+  flex: 1;
+}
+
+.inputText {
+  font-weight: 600;
+  font-size: 1.4vmax
+}
+
+.inputDiv {
+  display: flex;
+}

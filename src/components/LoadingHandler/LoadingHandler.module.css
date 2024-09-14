@@ -1,0 +1,17 @@
+@keyframes fadeIn {
+  0% {
+      opacity: 0%;
+  }
+  100% {
+      opacity: 100%;
+  }
+}
+
+.textCenterer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  animation: fadeIn 0.6s ease-out;
+}

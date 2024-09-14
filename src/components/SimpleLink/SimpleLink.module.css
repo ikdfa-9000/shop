@@ -1,0 +1,8 @@
+.simpleButton:active, .simpleButton:enabled {
+    color: #000000;
+}
+
+.simpleButton {
+    color: #000000;
+    text-decoration: none;
+}

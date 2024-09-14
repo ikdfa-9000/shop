@@ -1,0 +1,15 @@
+.imagesContainer {
+  gap: 4px;
+  display: flex;
+}
+
+.imageActiveButton, .imageInactiveButton {
+  width: 40px;
+  height: 60px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.imageInactiveButton {
+  opacity: 30%;
+}
